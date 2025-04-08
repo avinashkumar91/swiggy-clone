@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346686395245",
+    "project_id": "foodflixx-c753e",
+    "storage_bucket": "foodflixx-c753e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346686395245:android:0d4be87e2b39ecce350064",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEDP_vjG5oZ-PCN_9ewTVQk63KrCW_wyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
