@@ -83,6 +83,7 @@ class _OrderState extends State<Order> {
                                     topRight: Radius.circular(10),
                                   ),
                                   child: Container(
+                                    height: MediaQuery.of(context).size.height/4,
                                     width: MediaQuery.of(context).size.width,
                                     decoration: BoxDecoration(
                                       color: Colors.white,
@@ -162,15 +163,14 @@ class _OrderState extends State<Order> {
                                                     )
                                                   ],
                                                 ),
-                                                SizedBox(height: 5),
-                                                Text(
-                                                  "Pending!!",
-                                                  style: TextStyle(
-                                                    color: Color(0xffef2b39),
-                                                    fontSize: 20,
-                                                    fontWeight: FontWeight.bold,
-                                                  ),
-                                                )
+                                                SizedBox(height: 30,),
+                  Container(
+                    height: 40,
+                    margin: EdgeInsets.only(left: 20,right: 20),
+                    width: MediaQuery.of(context).size.width/2,
+                    decoration: BoxDecoration(color: Color(0xffef2b39),borderRadius: BorderRadius.circular(10)),
+                    child: Center(child: Text("Order Now",style: AppWidget.boldwhiteTextFeildStyle(),)),
+                  )
                                               ],
                                             )
                                           ],

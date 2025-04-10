@@ -79,8 +79,8 @@ class _LogInState extends State<LogIn> {
                     width: 220,
                   ),
                   Image.asset(
-                    "images/logo.png",
-                    width: 150,
+                    "images/logo1.png",
+                    width: 200,
                     height: 50,
                     fit: BoxFit.cover,
                   ),
@@ -103,13 +103,13 @@ class _LogInState extends State<LogIn> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  height: MediaQuery.of(context).size.height / 1.75,
+                  height: MediaQuery.of(context).size.height / 1.6,
                   child: SingleChildScrollView(
                     scrollDirection: Axis.vertical,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        SizedBox(height: 30),
+                        SizedBox(height: 20),
                         Center(
                           child: Text(
                             "Login",

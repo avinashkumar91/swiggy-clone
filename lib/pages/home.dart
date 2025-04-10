@@ -143,7 +143,7 @@ class _HomeState extends State<Home> {
                 padding: EdgeInsets.only(right: 10),
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.57,
+                  childAspectRatio: 0.50,
                   mainAxisSpacing: 15,
                   crossAxisSpacing: 10,
                 ),

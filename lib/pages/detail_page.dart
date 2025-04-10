@@ -60,7 +60,7 @@ class _DetailPageState extends State<DetailPage> {
             Center(
               child: Image.network(
                 widget.image,
-                height: MediaQuery.of(context).size.height / 3,
+                height: MediaQuery.of(context).size.height / 4,
                 fit: BoxFit.contain,
               ),
             ),
@@ -150,7 +150,7 @@ class _DetailPageState extends State<DetailPage> {
                     ),
                   ),
                 ),
-                SizedBox(width: 30),
+                SizedBox(width: 10),
                 GestureDetector(
                   onTap: () {
                     db.collection("users").doc(myAuth.currentUser!.uid).update({
